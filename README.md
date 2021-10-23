@@ -1,27 +1,8 @@
-# cinema-app
+# Stateless-app
 
-### Hello, this is my project taxi service project
+### Hello, this is my project with Stateless Authentication
 
-Using the link below you can go to an exact copy of this project in Heroku. To login to the application, use the information below the link.
-
-(login: michaellmuller@gmail.com, pass: jfdeegji4)
-
-https://cinema-app-heroku.herokuapp.com/movies
-
-The application offers this functionality:
-
-* registration, login - for all
-* get all cinema-halls, movies, available movie sessions - for Users and Administrators
-* View shopping cart or order history - for Users
-* add a cinema-hall, movie or movie session - for Administrators
-* to make an order - for User
-* refresh movie sessions - for Administrator
-* add, remove ticket from shopping cart - for User
-* delete movie session - for Administrator
-
-The structure of the database can be seen below:
-
-![img.png](img.png)
+This application uses a JwtToken for authentication. This was done in order not to store the authentication object in the memory of our web server, which made it possible to use multiple copies of our application while keeping the standard authentication process
 
 The project was created using these technologies:
 
